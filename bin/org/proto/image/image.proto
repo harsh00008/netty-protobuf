@@ -1,0 +1,6 @@
+option java_outer_classname = "ImageProto";
+
+message Image{
+	optional bytes imgbits = 1;
+	optional string filename = 2;
+}
